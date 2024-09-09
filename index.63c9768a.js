@@ -1,0 +1,2 @@
+function e(e){return e.replace(/([a-z])([A-Z])/g,"$1 $2").replace(/^./,function(e){return e.toUpperCase()})}!function(n){n.forEach(function(n){n.querySelectorAll("input").forEach(function(n){n.insertAdjacentHTML("beforebegin",'<label class="field-label" for="'+n.id+'">'+e(n.name)+"</label>"),n.placeholder=e(n.name)})})}(document.querySelectorAll("form"));
+//# sourceMappingURL=index.63c9768a.js.map
